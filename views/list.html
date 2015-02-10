@@ -1,0 +1,13 @@
+<div class="issues-list">
+    <ul class="list-unstyled">
+        <li ng-repeat="(key, value) in list">
+            <div class="title">{{key}}</div>
+            <ul class="list-unstyled">
+                <li ng-repeat="issue in value">
+                    <a href="{{issue.html_url}}">{{issue.title}}</a>
+                    <span ng-repeat="label in issue.labels" style="background-color:#{{label.color}}">{{label.name}}</span>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>

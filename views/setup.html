@@ -1,0 +1,15 @@
+<form style="margin:10px 0;">
+    <div class="form-group">
+        <label for="access">Github Access Token</label>
+        <input type="text" class="form-control" id="access" placeholder="Access token" ng-model="data.access">
+    </div>
+    <div class="form-group">
+        <label for="account">Github Account Name</label>
+        <input type="text" class="form-control" id="account" placeholder="The account name to get all the repositories" ng-model="data.account">
+    </div>
+    <div class="form-group">
+        <label for="repositories">Github Repositories</label>
+        <input type="text" class="form-control" id="repositories" placeholder="The list of repositories separated with coma ," ng-model="data.repositories">
+    </div>
+    <button type="submit" class="btn btn-default" ng-click="save()">Save</button>
+</form>

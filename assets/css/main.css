@@ -1,0 +1,20 @@
+span {
+    color: #00A7E1;
+}
+.github-notify {}
+.github-notify .container {
+    width: 700px;
+}
+.github-notify .issues-list ul .title {
+    margin: 8px 0;
+    font-weight: bold;
+}
+.github-notify .issues-list ul span {
+    padding: 2px 5px;
+    color: #fff;
+    font-size: 11px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    margin: 0 5px;
+}
