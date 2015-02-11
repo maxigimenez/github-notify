@@ -1,6 +1,9 @@
 span {
     color: #00A7E1;
 }
+a:hover {
+    text-decoration: none;
+}
 .github-notify {}
 .github-notify .container {
     width: 700px;
@@ -17,4 +20,10 @@ span {
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     margin: 0 5px;
+}
+.github-notify .icon-settings {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACpElEQVRIS7WVWahOURTHXZm9eKCU6fNG5ngyZChzRB6UoosSQkhRKBlLkUtCyA0vCk/IVEgkRJmSomt8pGQqit/vtvbtdDpf3/c92PVrn7PP2uu/z1rrrFPX6j+Puhr8l7CdHfbnmN9Vs7dagQk4uwAdw+l35qlwu5JIOYFubBwBH+ApPIM2MBHccx0UGQaDoTs8hM95wSKBeRgdhw5hrEhP2Ag7Y20T8zb4CD1i7QfzIjiTFckLeHJjew90MgpmwUlohF+x2VDVw3w4D/dhOwyHXtDyJnmBaTy8GI7vZk9SxfU4bG6AYTSEzSMvMJS1x7AedlfhNGuSwtafxZflBFw35oZpZGZ3O66XwmT4C5fhCPzO2Dzguiv0zapm38BS3A8DYBkcDkOdX4WxYEW5ZyAYDgWTyMrYr43Xt9yfBEpcvwBPbkL3QkroKq4bwISeDtF65hOwAg7GmolfCwvAqusH75PAmnDa28XYkCaTbmVY79nxnJs3MCO33of7JtDnvryAD/MtwC/Y9UEFAq9Zm5lbNwcKr4aGJODJDZEfzinYAz9jo2E4AAuhMdYUewIm3mQ7OkMKkV+21fQhm+QxLJhkS3U5HIqNbZmvwPg4xNEQnM58Cf6EXcrVI+5NcvN3VNQqispUkSUwBa7FQcJvy2QvskxL2QflPrR1GBmmWsYGjHeBJWwBNI+8gK9tUkfDnVq8Y+t3chMmxVsWCtjs3oKvuwVsdlaJ38YxSIk3oYvBmvfnY3O02Q0BS/pLOlxRDuby0HatE0cTlMBesyPWNjNvjcNYwg7/D/VwNjl3LvfD6cIzq+kTvAJLsj34+q3B1vEVbM+2Fv8J9qKWkyeRan+ZxteS7BQbvzHbhyq29GoF9Gts54Dd1LhbzhVHLQIVnRUZ/AOniYoZXGoetwAAAABJRU5ErkJggg==');
 }

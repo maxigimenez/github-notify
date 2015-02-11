@@ -1,7 +1,7 @@
 'use strict';
 
 angular
-    .module('github-notify', ['ngRoute', 'ngCookies'])
+    .module('github-notify', ['ngRoute'])
     .config(function($routeProvider){
         $routeProvider
             .when('/', {

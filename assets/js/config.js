@@ -2,21 +2,21 @@
 
 angular
     .module('github-notify')
-    .factory('Config', ['$cookieStore', function($cookieStore){
+    .factory('Config', [function(){
         var key = 'GITHUB-NOTIFY-CONFIG';
         return {
             get: function(){
-                return $cookieStore.get(key);
+                return JSON.parse(localStorage.getItem(key));
             },
             have: function(){
-                return (!angular.isUndefined($cookieStore.get(key))) ? true : false;
+                return (!angular.isUndefined(this.get(key))) ? true : false;
             },
             save: function(data, callback){
-                $cookieStore.put(key, data);
+                localStorage.setItem(key, JSON.stringify(data));
                 callback();
             },
             remove: function(callback){
-                $cookieStore.remove(key);
+                localStorage.removeItem(key);
                 callback();
             }
         };

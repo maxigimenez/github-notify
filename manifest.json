@@ -9,7 +9,11 @@
         "default_title": "Click here!"
     },
     "permissions": [
-        "storage"
+        "storage",
+        "tabs",
+        "http://*/*",
+        "https://*/*",
+        "webRequest"
     ],
     "background": {
         "scripts": [

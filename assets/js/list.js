@@ -23,5 +23,9 @@ angular.module('github-notify')
         }, function(){
             $scope.$digest();
         });
+
+        $scope.open = function(url){
+            chrome.tabs.create({'url': url});
+        };
         
     }]);
