@@ -7,8 +7,11 @@
             <div class="title">{{key}}</div>
             <ul class="list-unstyled">
                 <li ng-repeat="issue in value">
+                    <span ng-if="issue.assignee" class="assignee">
+                        <img src="{{issue.assignee.avatar_url}}&s=20" />
+                    </span>
                     <a href="" ng-click="open(issue.html_url)">{{issue.title}}</a>
-                    <span ng-repeat="label in issue.labels" style="background-color:#{{label.color}}">{{label.name}}</span>
+                    <span ng-repeat="label in issue.labels" class="labels" style="background-color:#{{label.color}}">{{label.name}}</span>
                 </li>
             </ul>
         </li>
