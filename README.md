@@ -1,3 +1,5 @@
+**No longer maintained**
+
 # Github-Notify
 
 Chrome extension to follow the open issues on Github's repositoriers that you want.
